@@ -10,23 +10,22 @@ print(thistuple)
 #튜플길이
 print(len(thistuple))
 print(thistuple[1])
-print(thistuple[3])
+print(thistuple[2])
 print(thistuple[1:3])
 
 #튜플값 변경 방법
 thistuple = ("피카츄", "라이츄", "꼬부기")
 thiscast = list(thistuple)
 thiscast[1] = "잠만보"
-thistuple = turtle(thiscast)
+thistuple = tuple(thiscast)
 print(thistuple)
 
 # 튜플 압축 풀기
 thistuple = ("피카츄", "라이츄", "꼬부기")
-(p1, p2, p3, p4)
+(p1, p2, p3) = thistuple
 print(p1)
 print(p2)
 print(p3)
-print(p4)
 
 # 두개 튜플 조인
 thistuple1 = ("피카츄", "라이츄", "꼬부기")
