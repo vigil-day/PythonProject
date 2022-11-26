@@ -6,6 +6,7 @@
 '''
 thistuple = ("피카츄", "라이츄", "꼬부기")
 print(thistuple)
+# 출력값 : ['피카츄', '라이츄', '꼬부기']
 
 #튜플길이
 print(len(thistuple))

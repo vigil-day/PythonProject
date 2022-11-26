@@ -77,6 +77,7 @@ print(thislist)
 thislist = ["피카츄", "라이츄", "파이리"]
 thislist.clear()
 print(thislist)
+# 출력값 : []
 
 # 항목 확장
 thislist = ["피카츄", "라이츄", "파이리"]
