@@ -28,8 +28,28 @@ print(thisdict.get("model"))
 # 키 목록 가져오기
 print(thisdict.keys())
 
+# 추가하기
+thisdict = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year" : 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
 
+thisdict.update({"bgColor" : "black"})
+print(thisdict)
 
+# 변경하기
+thisdict["color"] = "yellow"
 
+thisdict.update({"bgColor" : "blue"})
+print(thisdict)
 
+# 제거하기
+thisdict.pop("model")
+print(thisdict)
 
+# 마지막 삽인된 항목 제거하기
+thisdict.popitem()
+print(thisdict)
